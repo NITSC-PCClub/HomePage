@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" ng-app>
   <head>
     <meta charset="utf-8" />
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
@@ -8,7 +8,7 @@
   <body>
     <div id="container">
       <div>工事中（前時代的）</div>
-      <a href="calendar.html">カレンダー</a>
+      <div ng-include="'calendar.html'"></div>
     </div>
   </body>
 </html>
