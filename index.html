@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja" ng-app>
-  <head>
-    <meta charset="utf-8" />
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-    <title>佐世保高専パソコン部</title>
-  </head>
-  <body>
-    <div id="container">
-      <div>工事中（前時代的）</div>
-      <div ng-include="'partials/calendar.html'"></div>
-    </div>
-  </body>
+	<head>
+		<meta charset="utf-8" />
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+		<title>佐世保高専パソコン部</title>
+	</head>
+	<body>
+		<div id="container">
+			<div ng-include="'partials/header.html'"></div>
+			<div>工事中（前時代的）</div>
+			<div ng-include="'partials/calendar.html'"></div>
+		</div>
+	</body>
 </html>
